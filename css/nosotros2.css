@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #121F3D; }
+
+.lineaAzul {
+  background-color: black; }
+
+.lineaAzul {
+  width: 100%;
+  height: 45px;
+  background-color: #121F3D;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.contentTel {
+  width: 170px;
+  height: 30px;
+  align-self: auto; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.tel {
+  width: 170px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  align-self: auto; }
+
+.tel:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+.lineaAzul .contentTel a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.lineaAzul .Seccion {
+  font-size: 1rem;
+  margin-left: 25px; }
+  .lineaAzul .Seccion .lineaAzul .Seccion h4 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #f0fff3;
+    text-decoration: none; }
+
+.lineaAzul .contentMail a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.contentMail {
+  width: 200px;
+  height: 30px;
+  align-self: auto;
+  padding-top: 7.5px;
+  margin-left: 10px; }
+
+.Mail {
+  width: 220px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20; }
+
+.Mail:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+nav {
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%); }
+  nav .letraB {
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 7px; }
+  nav .letraB:hover {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    transition: all .5s; }
+  nav .logo {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px; }
+  nav .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    margin-right: 50px;
+    margin-bottom: 5px; }
+
+.contenedorGralBogas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2 Abogado2 Abogado3 Abogado3"; }
+
+.Abogada1 {
+  grid-area: Abogada1; }
+
+.Abogado2 {
+  grid-area: Abogado2; }
+
+.Abogado3 {
+  grid-area: Abogado3; }
+
+.contenedorGralBogas {
+  flex-direction: row;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  background-color: #121F3D;
+  background-image: url(../assets/tribu1.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-items: center; }
+  .contenedorGralBogas img {
+    text-align: start;
+    width: 420px;
+    height: 280px; }
+
+.ContNombre {
+  width: 23rem; }
+
+.Categoria h3 {
+  width: 23rem;
+  margin: 0; }
+
+.Abogada1 {
+  width: 90%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  display: flex;
+  padding: 20px; }
+  .Abogada1 h2 {
+    font-weight: 800;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    color: #000000; }
+  .Abogada1 h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogada1 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif; }
+  .Abogada1 .FotoAbo1 {
+    width: max-content;
+    height: 200px;
+    text-align: start;
+    margin-top: 7px; }
+  .Abogada1 .descBoga1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: start;
+    flex-direction: column;
+    align-content: stretch;
+    padding-top: 30px;
+    padding-left: 30px; }
+    .Abogada1 .descBoga1 p {
+      padding-bottom: 4px; }
+
+.Abogada1:hover {
+  background-color: white;
+  transition: all .5s; }
+
+.Abogado2 {
+  width: 80%;
+  height: 345px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+  .Abogado2 h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado2 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 7px; }
+  .Abogado2 h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado2 img {
+    width: 300px;
+    height: 162px;
+    text-align: start;
+    margin: 7px; }
+
+.Abogado2:hover {
+  background-color: white;
+  transition: all .5s; }
+
+.Abogado3 {
+  width: 80%;
+  height: 345px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+  .Abogado3 h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado3 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 7px; }
+  .Abogado3 h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado3 img {
+    width: 300px;
+    height: 162px;
+    text-align: start;
+    margin: 7px; }
+
+.Abogado3:hover {
+  background-color: white;
+  transition: all .5s; }
+
+.Contacto1, .Contacto2, .Contacto3 {
+  background-color: #121F3D; }
+
+.contenedorCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Contacto1 Contacto2 Contacto3"; }
+
+.Contacto1 {
+  grid-area: Contacto1; }
+
+.Contacto2 {
+  grid-area: Contacto2; }
+
+.Contacto3 {
+  grid-area: Contacto3; }
+
+.contenedorCont {
+  background-color: #121F3D;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 5px auto; }
+  .contenedorCont .Contacto1 {
+    display: flex;
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .contenedorCont .Contacto1 .Logo2 {
+      margin: 2rem; }
+      .contenedorCont .Contacto1 .Logo2 .LogoCont {
+        width: 161px; }
+      .contenedorCont .Contacto1 .Logo2 .contenedorRedes {
+        width: 200px;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 45px;
+        justify-content: center;
+        align-items: center; }
+        .contenedorCont .Contacto1 .Logo2 .contenedorRedes .icoredes:hover {
+          filter: brightness(50%);
+          transition: all .5s; }
+  .contenedorCont .Contacto2 {
+    display: flex;
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto; }
+    .contenedorCont .Contacto2 .ContenMenuDown {
+      width: 350px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      margin-left: 2rem;
+      margin-right: 3rem; }
+    .contenedorCont .Contacto2 li {
+      list-style: none; }
+    .contenedorCont .Contacto2 li h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration: none;
+      color: white; }
+    .contenedorCont .Contacto2 li a {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 400;
+      text-decoration: underline;
+      color: #05B4CD; }
+  .contenedorCont .BAneg {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px; }
+  .contenedorCont .Contacto3 {
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto; }
+
+.Redes h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white; }
+
+.footer {
+  width: 100%;
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%);
+  padding: 1rem; }
+  .footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  .footer a {
+    color: #03A9F4;
+    text-decoration: none;
+    font-weight: 800; }
+
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1190px) {
+  .contenedorGralBogas .descBoga1 p {
+    font-size: 13.5px; }
+  .contenedorGralBogas .descBoga2 p {
+    font-size: 13.5px; }
+  .contenedorGralBogas .descBoga3 p {
+    font-size: 13.5px; } }
+
+@media (max-width: 1050px) {
+  .contenedorGralBogas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2" "Abogado3"; }
+  .Abogada1 {
+    grid-area: Abogada1; }
+  .Abogado2 {
+    grid-area: Abogado2; }
+  .Abogado3 {
+    grid-area: Abogado3; }
+  .contenedorGralBogas {
+    display: flex;
+    flex-direction: column; }
+  .contenedorGralBogas {
+    max-height: 1800px; }
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .logo {
+    width: 161px;
+    height: 60px;
+    display: flex;
+    justify-items: center;
+    margin: auto; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .contenedorGralBogas .descBoga1 {
+    padding: 0;
+    padding-top: 20px; }
+  .Abogada1 {
+    width: 90%;
+    height: 100%;
+    min-width: 418px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .FotoAbo1 {
+    margin-bottom: 70px; }
+  .descBoga1 p, .descBoga2 p, .descBoga3 p {
+    padding-top: 2px;
+    padding-bottom: 0; }
+  .contenedorGralBogas .descBoga1 p {
+    font-size: 15.5px; }
+  .Abogado2 {
+    width: 90%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .Abogado3 {
+    width: 90%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+/* MEDIAS QUERIES 3 */
+@media (max-width: 830px) {
+  .contenedorGralBogas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2" "Abogado3"; }
+  .Abogada1 {
+    grid-area: Abogada1; }
+  .Abogado2 {
+    grid-area: Abogado2; }
+  .Abogado3 {
+    grid-area: Abogado3; }
+  .contenedorGralBogas {
+    display: flex;
+    flex-direction: column; }
+  .contenedorGralBogas {
+    max-height: 1800px; }
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .logo {
+    width: 161px;
+    height: 60px;
+    display: flex;
+    justify-items: center;
+    margin: auto; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .Abogada1 {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .descBoga1 p {
+    padding-top: 7px;
+    padding-bottom: 7px; }
+  .Abogado2 {
+    width: 90%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .Abogado3 {
+    width: 90%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; } }
+
+@media (max-width: 512px) {
+  .FotoAbo1 img {
+    width: 85%; } }

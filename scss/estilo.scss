@@ -1,0 +1,27 @@
+@import "bodyindex";
+@import "navbar";
+@import "lineaazul";
+
+$bgla: #121F3D;
+$bghoverla: rgb(98, 37, 197);
+$bordersolidla: #03A9F4;
+
+$fondobarra:azul;
+
+.lineaAzul {
+    @if ($fondobarra == azul){
+        background-color: $bgla;
+    }
+    @else if ($fondobarra == negro){
+        background-color: black;
+    }
+    @else if ($fondobarra == celeste){
+        background-color: #03A9F4;
+    }
+    @else {
+        background-color: rgb(150, 0, 0);
+    }
+}
+
+@import "cuerpoindex";
+@import "mediaqindex";

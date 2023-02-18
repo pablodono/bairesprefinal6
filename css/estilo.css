@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #121F3D; }
+
+nav {
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%); }
+  nav .letraB {
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 7px; }
+  nav .letraB:hover {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    transition: all .5s; }
+  nav .logo {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px; }
+  nav .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    margin-right: 50px;
+    margin-bottom: 5px; }
+
+.lineaAzul {
+  background-color: black; }
+
+.lineaAzul {
+  width: 100%;
+  height: 45px;
+  background-color: #121F3D;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.contentTel {
+  width: 170px;
+  height: 30px;
+  align-self: auto; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.tel {
+  width: 170px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  align-self: auto; }
+
+.tel:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+.lineaAzul .contentTel a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.lineaAzul .Seccion {
+  font-size: 1rem;
+  margin-left: 25px; }
+  .lineaAzul .Seccion .lineaAzul .Seccion h4 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #f0fff3;
+    text-decoration: none; }
+
+.lineaAzul .contentMail a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.contentMail {
+  width: 200px;
+  height: 30px;
+  align-self: auto;
+  padding-top: 7.5px;
+  margin-left: 10px; }
+
+.Mail {
+  width: 220px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20; }
+
+.Mail:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+.lineaAzul {
+  background-color: #121F3D; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 4.5fr 2fr auto;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "cuerpo cuerpo cuerpo" "Contacto1 Contacto2 Contacto3" "footer footer footer"; }
+
+.cuerpo {
+  grid-area: cuerpo; }
+
+.footer {
+  grid-area: footer; }
+
+.Contacto1 {
+  grid-area: Contacto1; }
+
+.Contacto2 {
+  grid-area: Contacto2; }
+
+.Contacto3 {
+  grid-area: Contacto3; }
+
+.contenedor {
+  background-color: #121F3D; }
+
+.cuerpo {
+  grid-area: cuerpo;
+  background-color: #D7DEDC;
+  background-image: url(../assets/tribu8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.mensajeCuerpo {
+  grid-area: cuerpo;
+  width: 70%;
+  height: 60%;
+  margin: 5rem auto;
+  font-size: 0.7rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px; }
+
+.mensajeCuerpo:hover {
+  background-color: white;
+  transition: all 0.3s; }
+
+.mensajeCuerpo h1 {
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800; }
+
+.cuerpo {
+  width: 100%; }
+
+.contenedorDesc {
+  width: 100%; }
+
+.contenedor h1 {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1.5rem; }
+
+.mensajeCuerpo h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem; }
+
+.descripcionBaires {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: start;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.Contacto1 {
+  border: solid 2px #03A9F4;
+  width: 354px;
+  height: 254px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.contenedorRedes {
+  width: 200px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 45px;
+  justify-content: center;
+  align-items: center; }
+
+.icoredes:hover {
+  filter: brightness(50%);
+  transition: all .5s; }
+
+.Contacto2 {
+  width: 354px;
+  height: 254px;
+  border: solid 2px #03A9F4;
+  justify-self: center;
+  align-self: center; }
+
+.Contacto2 h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 25px; }
+
+.Contacto3 {
+  width: 354px;
+  height: 254px;
+  justify-self: center;
+  align-self: center;
+  border: solid 2px #03A9F4;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.ContenMenuDown li {
+  list-style: none; }
+
+.ContenMenuDown {
+  width: 318px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 3rem; }
+
+.ContenMenuDown li a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #03A9F4; }
+
+.footer {
+  grid-area: footer;
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%);
+  padding: 1rem; }
+
+.cartelWEB {
+  width: 950px;
+  height: 380px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 220px;
+  left: 250px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  justify-self: center;
+  align-self: center; }
+
+.cartelWEB:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all .5s; }
+
+.animate__animated {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+h2 {
+  color: #000; }
+
+h4 {
+  font-weight: bold;
+  color: #ffffff; }
+
+.ContenMenuDown li h3 {
+  color: white; }
+
+.footer h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 100%; }
+
+.footer a {
+  color: #03A9F4;
+  text-decoration: none;
+  font-weight: 800; }
+
+.Logo2 {
+  margin: 2rem; }
+
+@media (max-width: 1300px) {
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 20px; }
+  .contenedorDesc h2 {
+    text-align: justify;
+    padding: 2px;
+    margin: 10px; } }
+
+@media (max-width: 1000px) {
+  .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .mensajeCuerpo {
+    height: 300px; }
+  .mensajeCuerpo h1 {
+    margin-top: 10px;
+    padding: 1px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800; }
+  .mensajeCuerpo h2 {
+    font-size: 0.8rem;
+    margin: 5px; }
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px; }
+  .Contacto2 {
+    margin: 50px; }
+  .Contacto3 {
+    margin: 50px; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 15px auto; }
+  .mensajeCuerpo h1 {
+    padding-top: 20px; } }
+
+@media (max-width: 830px) {
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "cuerpo cuerpo cuerpo" "Contacto Contacto Contacto" "footer footer footer"; }
+  .cuerpo {
+    grid-area: cuerpo; }
+  .Contacto {
+    grid-area: Contacto; }
+  .footer {
+    grid-area: footer; }
+  .contenedor .mensajeCuerpo {
+    margin-bottom: 2rem;
+    font-size: 0.7rem; }
+  .menu {
+    font-size: 0.8rem; }
+  .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 15px auto; }
+  .mensajeCuerpo h1 {
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800; }
+  .mensajeCuerpo h2 {
+    font-size: 0.8rem;
+    margin: 5px; } }
+
+@media (max-width: 600px) {
+  .mensajeCuerpo {
+    height: 430px; } }

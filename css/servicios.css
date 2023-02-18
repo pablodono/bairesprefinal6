@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #121F3D; }
+
+.lineaAzul {
+  background-color: black; }
+
+.lineaAzul {
+  width: 100%;
+  height: 45px;
+  background-color: #121F3D;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.contentTel {
+  width: 170px;
+  height: 30px;
+  align-self: auto; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.tel {
+  width: 170px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  align-self: auto; }
+
+.tel:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+.lineaAzul .contentTel a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.lineaAzul .Seccion {
+  font-size: 1rem;
+  margin-left: 25px; }
+  .lineaAzul .Seccion .lineaAzul .Seccion h4 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #f0fff3;
+    text-decoration: none; }
+
+.lineaAzul .contentMail a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.contentMail {
+  width: 200px;
+  height: 30px;
+  align-self: auto;
+  padding-top: 7.5px;
+  margin-left: 10px; }
+
+.Mail {
+  width: 220px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20; }
+
+.Mail:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+nav {
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%); }
+  nav .letraB {
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 7px; }
+  nav .letraB:hover {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    transition: all .5s; }
+  nav .logo {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px; }
+  nav .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    margin-right: 50px;
+    margin-bottom: 5px; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Servicio1 Servicio3 Servicio2" "Servicio4 Servicio5 Servicio6"; }
+
+.Servicio1 {
+  grid-area: Servicio1; }
+
+.Servicio2 {
+  grid-area: Servicio2; }
+
+.Servicio3 {
+  grid-area: Servicio3; }
+
+.Servicio4 {
+  grid-area: Servicio4; }
+
+.Servicio5 {
+  grid-area: Servicio5; }
+
+.Servicio6 {
+  grid-area: Servicio6; }
+
+.contenedor {
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #121F3D;
+  background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat; }
+  .contenedor .Servicio1 h2, .contenedor .Servicio2 h2, .contenedor .Servicio3 h2 {
+    padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif; }
+  .contenedor .Servicio1 h3, .contenedor .Servicio2 h3, .contenedor .Servicio3 h3 {
+    color: black;
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .contenedor .Servicio1 p, .contenedor .Servicio2 p, .contenedor .Servicio3 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin-top: 0.1rem;
+    padding-top: 0.5px; }
+  .contenedor .Servicio4 h2, .contenedor .Servicio5 h2, .contenedor .Servicio6 h2 {
+    padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif; }
+  .contenedor .Servicio4 h3, .contenedor .Servicio5 h3, .contenedor .Servicio6 h3 {
+    color: black;
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .contenedor .Servicio4 p, .contenedor .Servicio5 p, .contenedor .Servicio6 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px; }
+
+.contenedor .Servicio1, .contenedor .Servicio2, .contenedor .Servicio3, .contenedor .Servicio4, .contenedor .Servicio5, .contenedor .Servicio6 {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  align-items: center;
+  align-content: center;
+  justify-content: start;
+  justify-items: center;
+  padding: 1rem;
+  margin: 1rem; }
+
+.contenedor .Servicio3 {
+  width: 420px;
+  height: 490px; }
+
+.contenedor .Servicio4, .contenedor .Servicio5, .contenedor .Servicio6 {
+  width: 420px;
+  height: 230px; }
+
+.contenedor .Servicio1:hover, .contenedor .Servicio2:hover, .contenedor .Servicio3:hover, .contenedor .Servicio4:hover, .contenedor .Servicio5:hover, .contenedor .Servicio6:hover {
+  background-color: white;
+  transition: all .5s; }
+
+.Contacto1, .Contacto2, .Contacto3 {
+  background-color: #121F3D; }
+
+.contenedorCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Contacto1 Contacto2 Contacto3"; }
+
+.Contacto1 {
+  grid-area: Contacto1; }
+
+.Contacto2 {
+  grid-area: Contacto2; }
+
+.Contacto3 {
+  grid-area: Contacto3; }
+
+.contenedorCont {
+  background-color: #121F3D;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 5px auto; }
+  .contenedorCont .Contacto1 {
+    display: flex;
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .contenedorCont .Contacto1 .Logo2 {
+      margin: 2rem; }
+      .contenedorCont .Contacto1 .Logo2 .LogoCont {
+        width: 161px; }
+      .contenedorCont .Contacto1 .Logo2 .contenedorRedes {
+        width: 200px;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 45px;
+        justify-content: center;
+        align-items: center; }
+        .contenedorCont .Contacto1 .Logo2 .contenedorRedes .icoredes:hover {
+          filter: brightness(50%);
+          transition: all .5s; }
+  .contenedorCont .Contacto2 {
+    display: flex;
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto; }
+    .contenedorCont .Contacto2 .ContenMenuDown {
+      width: 350px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      margin-left: 2rem;
+      margin-right: 3rem; }
+    .contenedorCont .Contacto2 li {
+      list-style: none; }
+    .contenedorCont .Contacto2 li h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration: none;
+      color: white; }
+    .contenedorCont .Contacto2 li a {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 400;
+      text-decoration: underline;
+      color: #05B4CD; }
+  .contenedorCont .BAneg {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px; }
+  .contenedorCont .Contacto3 {
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto; }
+
+.Redes h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white; }
+
+.footer {
+  width: 100%;
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%);
+  padding: 1rem; }
+  .footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  .footer a {
+    color: #03A9F4;
+    text-decoration: none;
+    font-weight: 800; }
+
+/* MEDIAS QUERIES */
+@media (max-width: 1366px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Servicio1 Servicio4" "Servicio3 Servicio5" "Servicio2 Servicio6"; }
+  .Servicio1 {
+    grid-area: Servicio1; }
+  .Servicio2 {
+    grid-area: Servicio2; }
+  .Servicio3 {
+    grid-area: Servicio3; }
+  .Servicio4 {
+    grid-area: Servicio4; }
+  .Servicio5 {
+    grid-area: Servicio5; }
+  .Servicio6 {
+    grid-area: Servicio6; }
+  .contenedor {
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #121F3D;
+    background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat; }
+  .Servicio1, .Servicio2, .Servicio3, .Servicio4, .Servicio5, .Servicio6 {
+    height: 95%; }
+  .contenedorCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Contacto1 Contacto2 Contacto3"; }
+  .Contacto1 {
+    grid-area: Contacto1; }
+  .Contacto2 {
+    grid-area: Contacto2; }
+  .Contacto3 {
+    grid-area: Contacto3; }
+  .contenedorCont {
+    background-color: #121F3D;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 2rem;
+    padding-bottom: 1rem; }
+  .ContenMenuDown li {
+    list-style: none; }
+  .ContenMenuDown {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 3rem; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 0 auto; } }
+
+@media (max-width: 1000px) {
+  .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .contenedor {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    margin: auto;
+    justify-content: center; }
+  .contenedor {
+    background-image: url(../assets/fondos/fondo-arriba-martillo-02.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat; }
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; }
+  /* MEDIAS QUERIES 2 */ }
+
+@media (max-width: 1000px) and (max-width: 830px) {
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }

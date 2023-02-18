@@ -1,0 +1,231 @@
+.contenedor { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4.5fr 2fr auto;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "cuerpo cuerpo cuerpo"
+    "Contacto1 Contacto2 Contacto3"
+    "footer footer footer";
+}
+
+.cuerpo { grid-area: cuerpo; }
+
+.footer { grid-area: footer; }
+
+.Contacto1 { grid-area: Contacto1; }
+
+.Contacto2 { grid-area: Contacto2; }
+
+.Contacto3 { grid-area: Contacto3; }
+
+.contenedor {
+    background-color: #121F3D;
+}
+
+.cuerpo {
+    grid-area: cuerpo;
+    background-color: #D7DEDC;
+    background-image: url(../assets/tribu8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mensajeCuerpo{
+    grid-area: cuerpo;
+    width: 70%;
+    height: 60%;
+    margin: 5rem auto;
+    font-size: 0.7rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;    
+    }
+
+
+.mensajeCuerpo:hover{
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.3s;
+}
+
+.mensajeCuerpo h1 {
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.cuerpo {
+    width: 100%;
+}
+
+.contenedorDesc {
+    width: 100%;
+}
+
+.contenedor h1 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem;
+}
+
+.mensajeCuerpo h2 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.descripcionBaires {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Contacto1 {
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedorRedes {
+    width: 200px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icoredes:hover {
+    filter: brightness(50%);
+    transition: all .5s;
+}
+
+.Contacto2 {
+    width: 354px;
+    height: 254px;
+    border: solid 2px #03A9F4;
+    justify-self: center;
+    align-self: center;
+}
+
+.Contacto2 h4 {
+    font-family:'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-decoration:underline;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.Contacto3 {
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    border: solid 2px #03A9F4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ContenMenuDown li {
+    list-style: none;
+}
+
+.ContenMenuDown {
+    width: 318px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center; 
+    margin-left: 2rem;   
+    margin-right: 3rem;
+}
+
+.ContenMenuDown li a {
+    font-family:'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-decoration:underline;
+    color: #03A9F4;
+}
+
+.footer {
+    grid-area: footer;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
+    padding: 1rem;
+}
+
+.cartelWEB {
+    width: 950px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.cartelWEB:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all .5s;
+}
+
+.animate__animated {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+h2 {
+    color: #000;
+    }
+
+h4 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.ContenMenuDown li h3 {
+    color: white;
+    }
+
+.footer h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+}
+
+.footer a{
+    color: #03A9F4;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.Logo2 {
+    margin: 2rem;
+}
