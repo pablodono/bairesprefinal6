@@ -10,6 +10,8 @@ body {
 
 nav {
   background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%); }
+  nav .navbar-collapse {
+    margin: 10px; }
   nav .letraB {
     color: white;
     text-decoration: none;
@@ -34,15 +36,14 @@ nav {
     top: 4px;
     left: 4px;
     margin-right: 50px;
-    margin-bottom: 5px; }
+    margin-bottom: 10px; }
 
 .lineaAzul {
-  background-color: black; }
+  background-color: #121F3D; }
 
 .lineaAzul {
   width: 100%;
   height: 45px;
-  background-color: #121F3D;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -154,7 +155,7 @@ nav {
   filter: brightness(100%); }
 
 .tituloContactanos {
-  color: #000000;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6em;
   font-weight: 800;
@@ -427,11 +428,6 @@ textarea:hover {
 
 /* MEDIAS QUERIES 1 */
 @media (max-width: 1083px) {
-  .logoBairesNav {
-    width: 161px;
-    height: 60px;
-    margin-top: 20px;
-    margin-bottom: 20px; }
   .contenedorGridGestoria {
     display: grid;
     background-color: #121F3D;
@@ -479,7 +475,7 @@ textarea:hover {
 @media (max-width: 502px) {
   .cardMensaje {
     width: 350px;
-    height: 550px;
+    height: auto;
     background-color: rgba(215, 222, 220, 0.2);
     color: white;
     border-radius: 25px;

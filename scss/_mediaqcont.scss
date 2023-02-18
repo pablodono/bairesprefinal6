@@ -5,12 +5,7 @@
 
 
 @media (max-width: 1083px)  {
-    .logoBairesNav{
-        width:  161px;
-        height: 60px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+
     .contenedorGridGestoria { 
         display: grid;
         background-color: #121F3D;
@@ -56,6 +51,7 @@
 
 
 @media (max-width: 830px)  {
+
     .lineaAzul {
         width: 100%;
         height: 45px;
@@ -78,7 +74,7 @@
 @media (max-width: 502px)  {
 .cardMensaje {
     width: 350px;
-    height: 550px;
+    height: auto;
     background-color:rgba(215, 222, 220, 0.2);
     color: white;
     border-radius: 25px;

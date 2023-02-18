@@ -2,7 +2,7 @@ $bgla: #121F3D;
 $bghoverla: rgb(98, 37, 197);
 $bordersolidla: #03A9F4;
 
-$fondobarra:negro;
+$fondobarra:azul;
 
 .lineaAzul {
     @if ($fondobarra == azul){
@@ -12,7 +12,7 @@ $fondobarra:negro;
         background-color: black;
     }
     @else {
-        background-color: rgb(150, 0, 0);
+        background-color: red;
     }
 }
 
@@ -31,7 +31,6 @@ $estilos: (
 .lineaAzul {
     width: 100%;
     height: 45px;
-    background-color: $bgla;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

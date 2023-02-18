@@ -2,11 +2,11 @@
     .Contacto1, .Contacto2, .Contacto3 {
         margin: 20px;
     }
-    .contenedorDesc h2 {
-        text-align: justify;
-        padding: 2px;
-        margin: 10px;
-    }
+    // .contenedorDesc h2 {
+    //     text-align: justify;
+    //     padding: 2px;
+    //     margin: 10px;
+    // }
 }
 @media (max-width: 1000px)  {
     .logoBairesNav{
@@ -16,7 +16,8 @@
         margin-bottom: 20px;
     }
     .mensajeCuerpo {
-        height: 300px;
+        height: auto;
+        padding: 0 15px 15px 15px;
     }
     .mensajeCuerpo h1 {
         margin-top: 10px;
@@ -107,13 +108,13 @@
         font-size: 1.5rem;
         font-weight: 800;
     }
-    .mensajeCuerpo h2 {
-        font-size: 0.8rem;
-        margin: 5px;
-    }
+    // .mensajeCuerpo h2 {
+    //     font-size: 0.8rem;
+    //     margin: 5px;
+    // }
 }
 @media (max-width: 600px)  {
-    .mensajeCuerpo {
-        height: 430px;
-    }
+    // .mensajeCuerpo {
+    //     height: 430px;
+    // }
 }
