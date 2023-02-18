@@ -77,19 +77,26 @@
             margin-bottom: 30px;
         }
         .FotoAbo1 {
-            margin-bottom: 70px;
+            margin-bottom: 10px;
         }
         
         .descBoga1 p, .descBoga2 p, .descBoga3 p {
             padding-top: 2px;
             padding-bottom: 0;
+            margin: 0;
         }
         .contenedorGralBogas .descBoga1 p {
             font-size: 15.5px;
+
+        }
+        .contenedorGralBogas .Abogado2 p {
+            font-size: 15px;
+        }
+        .contenedorGralBogas .Abogado3 p {
+            font-size: 15px;
         }
         .Abogado2 {
             width: 90%;
-            height: 350px;
             background-color: rgba(255, 255, 255, 0.7);
             border-radius: 15px;
             display: flex;
@@ -99,7 +106,6 @@
         }
         .Abogado3 {
             width: 90%;
-            height: 350px;
             background-color: rgba(255, 255, 255, 0.7);
             border-radius: 15px;
             display: flex;
@@ -190,7 +196,6 @@
         display: none;
         }
 
-
     .Abogada1 {
         width: 90%;
         background-color: rgba(255, 255, 255, 0.7);
@@ -201,6 +206,9 @@
         margin-bottom: 30px;
     }
 
+    .Abogada1 .FotoAbo1 img {
+        width: 90%;
+    }
     .descBoga1 p {
         padding-top: 7px;
         padding-bottom: 7px;
@@ -208,7 +216,7 @@
     
     .Abogado2 {
         width: 90%;
-        height: 350px;
+        height: auto;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 15px;
         display: flex;
@@ -218,7 +226,7 @@
     }
     .Abogado3 {
         width: 90%;
-        height: 350px;
+        height: auto;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 15px;
         display: flex;
@@ -230,7 +238,5 @@
 
 
 @media (max-width: 512px)  {
-    .FotoAbo1 img {
-        width: 85%;
-    }
+
 }
